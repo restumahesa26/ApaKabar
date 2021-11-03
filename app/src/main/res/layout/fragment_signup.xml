@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_blue"
+    android:orientation="vertical"
+    tools:context=".ui.auth.signin.SigninFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="#FFF"
+        android:paddingLeft="36dp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        style="@style/TextView.PoppinsBold000"
+        />
+
+    <EditText
+        android:hint="Masukkan Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#FFF"
+        android:paddingLeft="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        style="@style/TextView.PoppinsBold000"
+        />
+
+    <EditText
+        android:hint="Masukkan Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Handphone"
+        android:textColor="#FFF"
+        android:paddingLeft="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        style="@style/TextView.PoppinsBold000"
+        />
+
+    <EditText
+        android:hint="Masukkan Nomor Handphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#FFF"
+        android:paddingLeft="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        style="@style/TextView.PoppinsBold000"
+        />
+
+    <EditText
+        android:hint="Masukkan Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#FFF"
+        android:paddingLeft="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        style="@style/TextView.PoppinsBold000"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="36dp"
+        android:background="@drawable/edit_text"
+        android:hint="Masukkan Nomor Handphone"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/button"
+        android:text="Register" />
+
+
+</LinearLayout>

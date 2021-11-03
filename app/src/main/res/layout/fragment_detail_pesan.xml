@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.pesan.DetailPesanFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="#0F52BA"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/photo_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNamaNama"
+            android:textColor="#FFF"
+            style="@style/TextView.PoppinsBold000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Alfath Arif Rizkullah"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcListDetailPesan"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        tools:itemCount="10"
+        tools:listitem="@layout/item_detail_pesan_vertical" />
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:textColor="#FFF"
+            android:background="@drawable/button"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:hint="Ketik pesan.."
+            android:layout_width="250dp"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:layout_gravity="start"
+            android:textColor="#FFF"
+            android:layout_marginLeft="16dp"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Kirim" />
+
+    </LinearLayout>
+
+</LinearLayout>

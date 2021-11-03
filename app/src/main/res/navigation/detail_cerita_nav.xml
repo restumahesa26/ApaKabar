@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragmentDetailCerita"
+    android:id="@+id/detail_cerita_nav">
+
+    <fragment
+        android:id="@+id/fragmentDetailCerita"
+        android:name="com.example.apakabar.ui.detail.cerita.CeritaFragment"
+        tools:layout="@layout/fragment_cerita"
+        android:label="Detail Cerita" />
+
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="80dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/photo_1" />
+
+    <TextView
+        android:id="@+id/tvNamaKontak"
+        android:layout_marginLeft="10dp"
+        android:layout_width="70dp"
+        android:ellipsize="end"
+        android:minWidth="70dp"
+        android:layout_height="wrap_content"
+        android:text="Mufti Restu"
+        android:textColor="#000"
+        android:textSize="10sp" />
+
+</LinearLayout>
